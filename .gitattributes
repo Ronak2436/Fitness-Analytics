@@ -1,0 +1,15 @@
+git init
+git lfs install
+git lfs track "*.pbix"
+echo ".DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.pbix.autosave
+" > .gitignore
+git add .gitattributes .gitignore
+git add Fitness_Analytics.pbix data docs LICENSE README.md
+git commit -m "Initial: Power BI Fitness Analytics dashboard"
+git branch -M main
+git remote add origin https://github.com/Rishita-rm/Fitness-Analytics.git
+git push -u origin main
