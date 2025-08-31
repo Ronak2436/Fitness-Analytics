@@ -1,0 +1,47 @@
+# ----------------------------
+# General project hygiene
+# ----------------------------
+# OS junk
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs & temps
+*.log
+*.tmp
+*.temp
+~$*
+*.bak
+
+# ----------------------------
+# Power BI specifics
+# ----------------------------
+# Allow .pbix to be committed (recommended via Git LFS)
+# Do NOT ignore *.pbix
+# Ignore autosaves and crash files
+*.pbix.autosave
+*.pbit.autosave
+
+# Preview/cache thumbnails from screenshots, etc.
+*.thumb
+*.cache
+
+# ----------------------------
+# Data folders
+# ----------------------------
+# Keep private/raw data out of the repo by default
+data/private/*
+data/raw/*
+data/output/*
+
+# But keep the sample dataset for reproducible demos
+!data/sample/**
