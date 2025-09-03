@@ -1,213 +1,82 @@
-# 💪 Fitness Analytics — Power BI Dashboard
+# 💪 Fitness-Analytics - Your Fitness Dashboard Made Easy
 
-> A polished, themeable analytics dashboard for a fitness business. It surfaces **overall performance**, **monthly trends**, and **membership health**, and includes an interactive **BMI/BMR/TDEE calculator**. Built with clean visuals, thoughtful UX, and portfolio‑ready presentation.
+[![Download Fitness Analytics](https://img.shields.io/badge/Download-Fitness%20Analytics-blue)](https://github.com/Ronak2436/Fitness-Analytics/releases)
 
-<p align="center">
-  <img src="docs/screenshots/overall.png" alt="Overall page" width="860"/>
-</p>
+## 🚀 Overview
 
-<p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
-  <img alt="Made with: Power BI" src="https://img.shields.io/badge/Made%20with-Power%20BI-blue">
-  <img alt="Repo activity" src="https://img.shields.io/badge/Status-Active-success">
-</p>
+Fitness Analytics is a user-friendly Power BI dashboard designed for fitness businesses. It provides a clear view of overall performance, monthly trends, and membership health. With this dashboard, you can easily track and visualize critical metrics to enhance your business insights. 
 
----
+## 🌟 Highlights
 
-## Table of Contents
-- [Overview](#overview)
-- [Highlights](#highlights)
-- [Report Pages](#report-pages)
-- [Data & Model (High Level)](#data--model-high-level)
-- [Design System & UX](#design-system--ux)
-- [Dynamic Theme Selector](#dynamic-theme-selector)
-- [Professional Tooltips](#professional-tooltips)
-- [Navigation & Interactions](#navigation--interactions)
-- [Getting Started](#getting-started)
-- [Repository Structure](#repository-structure)
-- [Privacy & Data](#privacy--data)
-- [Performance Notes](#performance-notes)
-- [Accessibility](#accessibility)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+- **Interactive Analytics**: Get detailed insights into your fitness business metrics with easy navigation.
+- **BMI/BMR/TDEE Calculator**: A built-in tool for calculating body metrics, helping users understand their fitness needs.
+- **Customizable Themes**: Tailor the dashboard's appearance to fit your brand's unique style.
+- **Clean Visuals**: Enjoy a polished, professional look that is easy on the eyes.
 
----
+## 📊 Report Pages
 
-## Overview
-**Fitness Analytics** is a Power BI solution that turns membership and payment activity into executive‑ready insights. It helps you answer:
+The dashboard includes multiple report pages that present data clearly and effectively. Each page focuses on different aspects, such as:
 
-- *How are revenue, expenses, and profitability trending?*
-- *Are we acquiring and retaining members month over month?*
-- *Which tiers (Platinum/Gold/Silver) are healthy vs. at risk?*
-- *What’s a member’s daily energy need (TDEE) based on their profile?*
+- **Overall Performance**: View key metrics of your fitness business at a glance.
+- **Monthly Trends**: Analyze changes over time to understand growth and seasonality.
+- **Membership Health**: Monitor membership dynamics, cancellations, and trends.
 
-This project demonstrates **enterprise‑grade Power BI practice**: semantic clarity, clean visuals, thoughtful drill paths, data‑driven theming, and informative tooltips—optimized for both decision‑makers and analysts.
+## 📈 Data & Model (High Level)
 
----
+Fitness Analytics uses a robust data model to ensure accuracy and speed. Key features include:
 
-## Highlights
-- **Executive KPIs**: Clients, Trainers, Revenue, Expenses, Profit & Margin with trend indicators.
-- **Monthly Performance**: New vs. Expired vs. Net Members; margin trend; optional revenue forecast.
-- **Membership Health**: Active/Expired by tier, *Expiring Soon (≤ 30 days)*, retention insights.
-- **Member Explorer**: Searchable roster with status icons, Days‑to‑Expiry, progress bars, and drill‑through.
-- **Calculator**: Interactive BMI/BMR/TDEE with age/height/weight/activity sliders.
-- **Theme Selector**: Switch accent/background (dark/light) via a disconnected color table.
-- **Tooltips**: Hover any month → *Revenue by Payment Mode* + *Active vs. Expired by Tier*.
-- **Professional polish**: Last Refresh stamp, consistent iconography, and a cohesive visual language.
+- **Star Schema**: Organizes data in a way that makes data analysis straightforward and efficient.
+- **Clean Data Integration**: Import data from various sources for comprehensive analysis.
+- **Time Intelligence**: Easily analyze data over time, allowing for dynamic reporting.
 
----
+## 🎨 Design System & UX
 
-## Report Pages
-1. **Home**  
-   Brand header, one‑line value proposition, **Last Refresh**, theme selector, and quick headline KPIs for instant context.
+Our design system focuses on creating an intuitive user experience. Important aspects include:
 
-2. **Overall**  
-   Combo chart (Revenue/Expenses bars + Profit Margin line), monthly members (New, Expired, Net), tier matrix (Active/Expired, Active %), **Expiring Soon** KPI, and core slicers (Trainer, Tier, Gender, Month).
+- **User-Friendly Interface**: Anyone, regardless of technical background, can navigate the dashboard easily.
+- **Thoughtful UX Patterns**: Designed for clarity and ease of use, ensuring that all users can find the information they need quickly.
+  
+## 🎨 Dynamic Theme Selector
 
-3. **Calculator**  
-   BMI gauge with health ranges, BMR/TDEE result cards, sliders for Age/Height/Weight/Activity; optional “use selected member” auto‑fill pattern.
+Customize your dashboard with our dynamic theme selector. Choose from different themes to match your brand. The theme can change easily and enhance your presentation without complex configurations.
 
-4. **Members**  
-   Age/Gender distributions, goal segmentation, and a rich table with status icons, Days‑to‑Expiry, and membership progress; click a member to drill‑through to a profile view.
+## 🛠️ Download & Install
 
-> Screenshots live under `docs/screenshots/`. A short interaction **demo.gif** is included for recruiters.
+To get started with Fitness Analytics, follow these simple steps:
 
----
+1. **Visit the Releases Page**: Click the link below to go to the download page:
+   
+   [Download Fitness Analytics](https://github.com/Ronak2436/Fitness-Analytics/releases)
 
-## Data & Model (High Level)
-- **Inputs**: Membership roster and payment transactions.
-- **Calendar**: Marked as the date table; used for all time‑based analysis.
-- **Theme table**: Disconnected list of brand colors for the theme selector.
-- **Star‑style** modeling and single‑direction relationships to keep the model fast and predictable.
+2. **Choose the Latest Release**: Look for the most recent version available.
 
-> Month labels are sorted by an index to ensure correct chronological order.
+3. **Download the File**: Click the download link for the relevant file type, such as `.pbix` for Power BI Desktop.
+
+4. **Open with Power BI**: After downloading, open the file using Power BI Desktop to start exploring your fitness business data.
+
+## 🛡️ System Requirements
+
+To run Fitness Analytics effectively, you will need:
+
+- **Operating System**: Windows 10 or later
+- **Software**: Power BI Desktop (free to download)
+- **Memory**: At least 4 GB of RAM
+- **Processor**: A modern multi-core processor
+
+## 🔧 Troubleshooting
+
+If you encounter issues while downloading or running the dashboard, consider the following steps:
+
+- **Check Internet Connection**: Ensure you have a stable connection during download.
+- **Update Power BI**: Make sure your Power BI Desktop is up to date for optimal performance.
+- **Re-download File**: If the file fails to open, try downloading it again.
+
+## 🤝 Support
+
+For questions or support regarding Fitness Analytics, please open an issue in the repository. We will respond promptly and assist you with your needs.
 
 ---
 
-## Design System & UX
-- **Visual Hierarchy**: From hero KPIs to detail cards; whitespace used deliberately.
-- **Color**: Single accent color sourced from the theme selector; consistent mapping (e.g., Revenue vs. Expenses vs. Profit).
-- **Typography**: Large numeric KPIs, compact labels, accessible contrast.
-- **States**: Hover/pressed states on nav, KPI deltas, status icons for memberships.
-- **Mobile‑aware**: Layouts respect smaller viewports; optional phone view can be added.
+Visit the Releases page to start your journey towards better fitness analytics management.
 
----
-
-## Dynamic Theme Selector
-A disconnected color table powers the theme:
-- **Accent** applied to titles, labels, and selected series via conditional formatting.
-- **Background** can switch **Dark/Light** for brand‑ready variants.
-- Ensures visual consistency without hard‑coding colors.
-
-> See `docs/ColorCodes.csv` for an example structure.
-
----
-
-## Professional Tooltips
-A dedicated **report‑page tooltip** enhances context on hover:
-- **Revenue by Payment Mode** for the hovered month.
-- **Active vs. Expired by Tier** for the same month.
-- Optional micro‑cards (Revenue, Active, Expired) for quick reference.
-
-Attach this tooltip page to monthly visuals on **Overall** for a richer narrative without cluttering the canvas.
-
----
-
-## Navigation & Interactions
-- **Top navigation** with page links and active‑page highlighting for an app‑like feel.
-- **Slicers** for Month, Membership Tier, Trainer, and Gender; interactions are deliberately scoped.
-- **Drill‑through** from tables and charts into Member Profile for focused analysis.
-
----
-
-## Getting Started
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/<you>/fitness-analytics-powerbi.git
-   cd fitness-analytics-powerbi
-   ```
-2. **(Recommended) Git LFS for PBIX**
-   ```bash
-   git lfs install
-   # .gitattributes already tracks *.pbix for you
-   ```
-3. **Open the report**  
-   Launch **Power BI Desktop (2024+)** and open `Fitness_Analytics.pbix`.
-4. **Sample data (optional)**  
-   Point queries to `data/sample/` via **Home → Transform data → Data source settings**.
-5. **Explore**  
-   Try the theme selector, hover charts to see tooltips, and filter by tier/trainer.
-
-> The included sample data is anonymized for demonstration.
-
----
-
-## Repository Structure
-```
-.
-├─ Fitness_Analytics.pbix
-├─ data/
-│  └─ sample/           # anonymized CSV/XLSX for demo
-├─ docs/
-│  ├─ screenshots/      # home.png, overall.png, calculator.png, members.png
-│  ├─ demo.gif          # short interaction clip
-│  └─ ColorCodes.csv    # theme selector (optional)
-├─ pbix-assets/         # icons, backgrounds (optional)
-├─ .gitattributes       # LFS for *.pbix
-├─ .gitignore
-├─ LICENSE
-└─ README.md
-```
-
----
-
-## Privacy & Data
-- **No sensitive data** is included. Sample data is fictional/anonymized.
-- Keep any private/raw sources outside the repo (`data/private/`, `data/raw/`).
-- If sharing screenshots, ensure PII (emails/phones/addresses) is masked.
-
----
-
-## Performance Notes
-- Favor a star schema and single‑direction filters.
-- Limit visuals per page to reduce render time; group details behind drill‑through.
-- Disable unnecessary interactions; prefer lightweight visuals for large data.
-- Use a dedicated Calendar and sort month names by an index.
-
----
-
-## Accessibility
-- Respect color contrast; do not communicate meaning with color alone—use labels/icons.
-- Provide text alternatives for key images in **docs/**.
-- Ensure keyboard focus order makes sense and slicers have clear labels.
-
----
-
-## Roadmap
-- [ ] Drill‑through **Member Profile** (payments history, progress sparklines)
-- [ ] Revenue forecast & scenario **What‑If** controls
-- [ ] Mobile layout optimization (phone portrait)
-- [ ] Accessibility pass (contrast, alt text, keyboard focus)
-
----
-
-## Contributing
-Contributions are welcome! Please:
-- Avoid committing sensitive or proprietary data.
-- Keep large binaries tracked with **Git LFS**.
-- Use issues/PRs for proposals and enhancements.
-
----
-
-**Download:** Grab the latest **[Release](../../releases)** (includes `.pbit` and optional `.pbix`).
-
----
-
-## License
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">Made with ❤️ for analytics and great user experience.</p>
-
+[![Download Fitness Analytics](https://img.shields.io/badge/Download-Fitness%20Analytics-blue)](https://github.com/Ronak2436/Fitness-Analytics/releases)
